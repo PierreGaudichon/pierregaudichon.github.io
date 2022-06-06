@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    font-family: Outfit,Avenir,Helvetica,Arial,sans-serif;
+    font-size: 1.1rem;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+a {
+    color: #CE4384;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+
+header em {
+    font-style: italic;
+}
+
+header a {
+    color: #CE4384;
+    text-decoration: none;
+}
+
+
+
+nav {
+    font-size: 1.1rem;
+    padding-bottom: 80px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px 40px;
+}
+
+
+
+
+main article, main section {
+    padding: 40px;
+}
+
+main h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+main aside.date {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+main h2, main h2 a {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 40px;
+
+}
+
+main p {
+    padding-bottom: 20px;
+}
+
+main img {
+    max-width: calc(100% - 80px);
+    height: auto;
+    border: 1px solid #EDEDED;
+    padding: 40px;
+    margin: 40px;
+}
+
+@media (max-width: 600px) {
+    main img {
+        max-width: calc(100% - 20px);
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+
+main a.action-button {
+    display: table;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 40px;
+    background-color: #CE4384;
+    color: white;
+}
