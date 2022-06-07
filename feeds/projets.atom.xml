@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pierre Gaudichon - Projets</title><link href="/" rel="alternate"></link><link href="/feeds/projets.atom.xml" rel="self"></link><id>/</id><updated>2022-06-06T00:00:00+02:00</updated><entry><title>Entity Component System</title><link href="/entity-component-system.html" rel="alternate"></link><published>2022-06-06T00:00:00+02:00</published><updated>2022-06-06T00:00:00+02:00</updated><author><name>Pierre Gaudichon</name></author><id>tag:None,2022-06-06:/entity-component-system.html</id><summary type="html">&lt;p&gt;Implémentation de deux mini-jeux en utilisant l'architecture Entity Component System en JS.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ce premier projet est mon implémentation d'un jeu en utilisant l'architecture &lt;a href="https://en.wikipedia.org/wiki/Entity_component_system"&gt;Entity Component System&lt;/a&gt;. Le but ici n'est pas le game design, mais de comprendre comment comprendre fonctionne cette architecture.&lt;/p&gt;
+&lt;p&gt;La première version est une représentation du système solaire.&lt;/p&gt;
+&lt;p&gt;&lt;a class="action-button" href="/projets/01-ecs/orbits.html"&gt;Voir le système solaire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ECS - Système solaire" src="/images/projets-ecs-orbits-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;La seconde version est un jeu ou l'utilisateur doit se déplacer de points en points pour éteindre un feu de forêt.&lt;/p&gt;
+&lt;p&gt;&lt;a class="action-button" href="/projets/01-ecs/orbits.html"&gt;Voir le feu de forêt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ECS - Système solaire" src="/images/projets-ecs-forest-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="action-button" href="https://github.com/PierreGaudichon/project-ecs"&gt;Le code sur Github&lt;/a&gt;&lt;/p&gt;</content><category term="Projets"></category></entry></feed>
