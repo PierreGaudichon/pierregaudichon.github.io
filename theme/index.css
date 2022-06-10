@@ -1,4 +1,16 @@
 
+/* Color management : https://www.canva.com/colors/color-wheel/ */
+
+:root {
+    --pink: #CE4384;
+    --black: #05100c;
+    --white: #f3fbf8; /* Kinda green, complementary of base pink, super white */
+    --grey: #c2efda /* Darker white */
+}
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +19,8 @@ html, body {
     min-height: 100%;
     font-family: Outfit,Avenir,Helvetica,Arial,sans-serif;
     font-size: 1.1rem;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 body {
@@ -16,9 +30,15 @@ body {
 }
 
 a {
-    color: #CE4384;
+    color: var(--pink);
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 header {
@@ -40,10 +60,6 @@ header em {
     font-style: italic;
 }
 
-header a {
-    color: #CE4384;
-    text-decoration: none;
-}
 
 
 
@@ -97,7 +113,7 @@ main p {
 main img {
     max-width: calc(100% - 80px);
     height: auto;
-    border: 1px solid #EDEDED;
+    border: 1px solid var(--grey);
     padding: 40px;
     margin: 40px;
 }
@@ -117,6 +133,6 @@ main a.action-button {
     height: 40px;
     line-height: 40px;
     padding: 0 40px;
-    background-color: #CE4384;
-    color: white;
+    background-color: var(--pink);
+    color: var(--white);
 }
